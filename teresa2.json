@@ -1,0 +1,130 @@
+{
+  "pk": 1,
+  "django_auth_user": {
+      "id": 2,
+      "password": "pbkdf2_sha256$260000$g9nV4djcGK8SKJkvESzE5L$cx+DDjcymM3MxEQJ8CV4qF1PdyPxqCPTzz933lr9kH0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "tmay.santos@iseeya.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-08-27T02:12:50.120386Z",
+      "groups": [],
+      "user_permissions": []
+  },
+  "profile": {
+      "id": 1,
+      "first_name": "Teresa",
+      "middle_name": "May",
+      "last_name": "Santos",
+      "profile_image_link": "https://robohash.org/tmay",
+      "label": "Teresa Santos"
+  },
+  "iseeya_maps": [
+      {
+          "pk": 1,
+          "type": "address",
+          "name": "Places I've Lived",
+          "owner": 1,
+          "markers": [
+              {
+                  "pk": 6,
+                  "type": "address",
+                  "location": {
+                      "id": 1,
+                      "city": "Havana",
+                      "stateOrProvince": "",
+                      "country": "Cuba",
+                      "lat": 23.1136,
+                      "lon": -82.3666
+                  },
+                  "profile": null
+              },
+              {
+                  "pk": 7,
+                  "type": "address",
+                  "location": {
+                      "id": 6,
+                      "city": "Manila",
+                      "stateOrProvince": "NCR",
+                      "country": "Philippines",
+                      "lat": 14.5995,
+                      "lon": 120.9842
+                  },
+                  "profile": null
+              }
+          ]
+      },
+      {
+          "pk": 2,
+          "type": "profile",
+          "name": "My Friends",
+          "owner": 1,
+          "markers": [
+              {
+                  "pk": 3,
+                  "type": "profile",
+                  "location": {
+                      "id": 3,
+                      "city": "Buenos Aires",
+                      "stateOrProvince": "",
+                      "country": "Argentina",
+                      "lat": -34.6037,
+                      "lon": 58.3816
+                  },
+                  "profile": {
+                      "pk": 2,
+                      "first_name": "Jeff",
+                      "middle_name": "",
+                      "last_name": "Winger",
+                      "profile_image_link": "https://robohash.org/jeff",
+                      "label": "Jeff W."
+                  }
+              },
+              {
+                  "pk": 4,
+                  "type": "profile",
+                  "location": {
+                      "id": 2,
+                      "city": "New York",
+                      "stateOrProvince": "New York",
+                      "country": "United States",
+                      "lat": 40.7129,
+                      "lon": -74.006
+                  },
+                  "profile": {
+                      "pk": 3,
+                      "first_name": "Britta",
+                      "middle_name": "",
+                      "last_name": "Perry",
+                      "profile_image_link": "https://robohash.org/britta",
+                      "label": "Britta Perry"
+                  }
+              },
+              {
+                  "pk": 5,
+                  "type": "profile",
+                  "location": {
+                      "id": 5,
+                      "city": "London",
+                      "stateOrProvince": "England",
+                      "country": "United Kingdom",
+                      "lat": 51.5074,
+                      "lon": 0.1278
+                  },
+                  "profile": {
+                      "pk": 4,
+                      "first_name": "Abed",
+                      "middle_name": "",
+                      "last_name": "Nadir",
+                      "profile_image_link": "https://robohash.org/abed",
+                      "label": "Abed Nadir"
+                  }
+              }
+          ]
+      }
+  ]
+}
